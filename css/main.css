@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    background-color: #333;
+    color: white;
+}
+
+.form-control {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+#all_tasks i {
+    color: rgb(237, 75, 75);
+    cursor: pointer;
+    transition: all .4s;
+}
+
+#all_tasks i:hover {
+    transform: scale(1.112, 1.112);
+}
+
+.none {
+    display: none;
+}
+
+.checked {
+    background-color: gray !important;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.mymodal {
+    width: 100% ;
+    height: 100% ;
+    position: fixed ;
+    top: 0;
+    right: 0;
+    z-index: 8765;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.mymodal_content {
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #333;
+}
+ 
